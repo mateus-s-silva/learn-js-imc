@@ -29,7 +29,7 @@ function getNivelImc(imc){
     if(imc > 29.9) return nivelImc[3];
     if(imc > 24.9) return nivelImc[2];
     if(imc >= 18.5) return nivelImc[1];
-    if(imc < 18.5) return nivelImc[5];
+    if(imc < 18.5) return nivelImc[0];
 }
 
 function recebeEventoForm(evento){
